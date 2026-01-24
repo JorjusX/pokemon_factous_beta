@@ -62,3 +62,9 @@
 160,North,13,156,South,0
 # Ruta 6 (179) - San Berna (156)
 179,West,0,156,East,31
+# Ruta Oculta (194) - Beta Jugable (187)
+194,West,0,187,East,16
+# Ruta01_Beta (193) - Beta Jugable (187)
+193,South,0,187,North,0
+# Ruta01_Beta (193) - Ruta Oculta (194)
+193,East,51,194,West,0

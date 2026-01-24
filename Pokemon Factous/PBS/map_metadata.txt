@@ -632,10 +632,14 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [181]   # Curva Empantanada
-Name = Cueva Esmeralda
-Outdoor = true
+Name = Cueva Empantanada
+ShowArea = true
 Bicycle = true
 BattleBack = field_night
+#-------------------------------
+[182]   # Piso-1
+Name = Cueva Empantanada
+ShowArea = true
 #-------------------------------
 [183]   # Bosque Magico
 Name = Bosque Caramelo
@@ -643,3 +647,20 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+#-------------------------------
+[187]   # Beta Jugable
+Name = Marcilla
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[193]   # Ruta01_Beta
+Name = Ruta 1
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[194]   # Ruta Oculta
+Name = Escondite Secreto
+Outdoor = true
+ShowArea = true
