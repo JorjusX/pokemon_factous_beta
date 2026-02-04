@@ -11,7 +11,8 @@ MapPosition = 0,13,12
 BattleBack = field
 #-------------------------------
 [003]   # MAP003
-Name = Casa del jugador
+Name = Casa
+ShowArea = true
 HealingSpot = 2,8,8
 MapPosition = 0,13,12
 #-------------------------------
@@ -247,6 +248,7 @@ Environment = Rock
 #-------------------------------
 [048]   # Laboratorio
 Name = Laboratorio
+ShowArea = true
 #-------------------------------
 [049]   # Cueva de Roca P1
 Name = Cueva de Roca P1
@@ -409,6 +411,18 @@ Name = Región Tiall
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[077]   # Casa_jugador
+Name = Casa
+ShowArea = true
+#-------------------------------
+[078]   # Laboratorio_medicinal
+Name = Laboratorio Quimico
+ShowArea = true
+#-------------------------------
+[079]   # Casa_rival
+Name = Casa de Alberto
+ShowArea = true
 #-------------------------------
 [080]   # Ruta 01
 Name = Ruta 1
@@ -654,6 +668,10 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[192]   # Casa_jugador
+Name = Casa @name
+ShowArea = true
+#-------------------------------
 [193]   # Ruta01_Beta
 Name = Ruta 1
 Outdoor = true
@@ -664,3 +682,10 @@ Bicycle = true
 Name = Escondite Secreto
 Outdoor = true
 ShowArea = true
+#-------------------------------
+[196]   # Bosque Magico
+Name = Bosque Caramelo
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
