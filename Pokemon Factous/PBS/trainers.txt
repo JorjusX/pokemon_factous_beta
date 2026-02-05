@@ -872,7 +872,7 @@ Pokemon = MILOTIC,30
 LoseText = Al final consegui salir escalando.
 LoseText_F = Al final consegui salir escalando.
 Pokemon = MONFERNO,30
-Pokemon = MAGMORTAR,30
+Pokemon = TYPHLOSION,30
 #-------------------------------
 [POKEMONRANGER_F,Alba]
 LoseText = En realidad es que no conozco a nigun otro Pokémon.
@@ -1080,3 +1080,34 @@ Pokemon = UNOWN,25
     Form = 12
 Pokemon = CRADILY,33
 Pokemon = KLEAVOR,34
+#-------------------------------
+[POKEMANIAC,Macaco]
+LoseText = Viva la "sopa du macaco".
+LoseText_F = Viva la "sopa du macaco".
+Pokemon = PANSEAR,30
+Pokemon = PANPOUR,30
+Pokemon = PANSAGE,30
+#-------------------------------
+[LADY,Justina]
+LoseText = Tu si que eres feo nene.
+LoseText_F = Tu si que eres fea mi niña.
+Pokemon = AROMATISSE,30
+Pokemon = SLURPUFF,30
+#-------------------------------
+[BEAUTY,Byron]
+LoseText = Descubriste mi imitacion.
+LoseText_F = Descubiste mi imitacion.
+Pokemon = SYLVEON,30
+Pokemon = TOGEKISS,30
+#-------------------------------
+[GAMBLER,Vejestorio]
+LoseText = El Tuiter era lo mejor.
+LoseText_F = El Tuiter era lo mejor.
+Pokemon = RELICANTH,30
+Pokemon = RUNERIGUS,30
+#-------------------------------
+[POKEMANIAC,Muñoz]
+LoseText = He perdido ya 67 combates.
+LoseText_F = He perdido ya 67 combates.
+Pokemon = TRUBBISH,30
+Pokemon = GRIMER,30
