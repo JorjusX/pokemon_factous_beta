@@ -661,6 +661,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+BattleBack = city
 #-------------------------------
 [187]   # Beta Jugable
 Name = Marcilla

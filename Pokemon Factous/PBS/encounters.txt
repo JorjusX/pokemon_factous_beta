@@ -52,8 +52,8 @@ LandNight,21
 Land,21
     50,RATTATA,12,15
     30,POOCHYENA,11,15
-    10,SHINX,10,12
     10,SHINX,10,11
+    10,SHINX,10,12
 Water,2
     60,MAGIKARP,7,10
     30,GOLDEEN,11,14
@@ -87,8 +87,8 @@ Land,21
     20,CATERPIE,10
     20,SUNKERN,12
     20,WEEDLE,10
-    15,PIDGEY,10,14
     15,PIDGEY,12,14
+    15,PIDGEY,10,14
     5,KAKUNA,10
     5,METAPOD,10
 LandNight,21
@@ -192,7 +192,6 @@ SuperRod
     20,MAGIKARP,25,35
     10,SKRELP,20,28
     10,WISHIWASHI,5,25
-    1,POPPLIO,5,15
 #-------------------------------
 [044] # Ruta 6
 Land,21
@@ -212,19 +211,19 @@ RockSmash,50
 #-------------------------------
 [049] # Cueva de Roca P1
 Cave,5
-    20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,15
+    20,MAGNETON,14,16
     20,NOSEPASS,13,14
+    20,NOSEPASS,14,15
     10,GEODUDE,13,15
     10,MAWILE,14,16
 #-------------------------------
 [050] # Cueva de Roca S1
 Cave,5
-    20,MAGNETON,14,16
     20,MAGNETON,14,17
-    20,NOSEPASS,14,15
+    20,MAGNETON,14,16
     20,NOSEPASS,13,14
+    20,NOSEPASS,14,15
     10,BURMY,14,16
     10,GEODUDE,13,15
 #-------------------------------
@@ -252,8 +251,8 @@ Land,21
     20,RHYHORN,16,18
     10,AIPOM,14,17
     10,GIRAFARIG,16,17
-    10,VENONAT,15,17
     10,VENONAT,15,18
+    10,VENONAT,15,17
     5,HERACROSS,15,17
     5,TAUROS,15,16
     4,PINSIR,16
@@ -284,13 +283,13 @@ Land,21
     20,MAREEP,16,18
     20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,15,17
     10,DITTO,16,18
+    10,DITTO,15,17
     10,LOTAD,15,18
     10,LOTAD,15,17
     5,BONSLY,14,17
-    1,BONSLY,15,16
     1,BONSLY,15
+    1,BONSLY,15,16
 Water,2
     60,TENTACOOL,14,19
     30,MANTYKE,15,16
@@ -393,7 +392,6 @@ SuperRod
     40,FINNEON,20,25
     40,QWILFISH,20,25
     40,TENTACOOL,20,25
-    1,SOBBLE,5
 Water,2
     30,DUCKLETT,15,20
     20,DEWPIDER,13,15
@@ -459,7 +457,6 @@ Land,61
     20,PETILIL_1,5
     20,PHANTUMP,5
     20,VOLTORB_1,5
-    1,ROWLET_1,5
 #-------------------------------
 [120] # Cueva 2
 Cave,5
@@ -641,3 +638,7 @@ SuperRod,2
 [181] # Curva Empantanada
 Cave,5
     20,BULBASAUR,5
+#-------------------------------
+[183] # Bosque Magico
+Land,21
+    20,CHIKORITA,5
