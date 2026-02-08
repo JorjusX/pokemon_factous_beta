@@ -450,3 +450,8 @@ Gender = Male
 BaseMoney = 400
 BattleBGM = RSE 150 Battle! (Gym Leader)
 VictoryBGM = RSE 151 Victory! (Gym Leader)
+#-------------------------------
+[POKEMONTRAINER_Maria]
+Name = Entrenador Pokémon
+Gender = Female
+BaseMoney = 2500

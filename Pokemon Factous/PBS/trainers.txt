@@ -1111,3 +1111,13 @@ LoseText = He perdido ya 67 combates.
 LoseText_F = He perdido ya 67 combates.
 Pokemon = TRUBBISH,30
 Pokemon = GRIMER,30
+#-------------------------------
+[POKEMONTRAINER_Maria,Maria]
+LoseText = Hola.
+LoseText_F = Hola.
+Pokemon = ENAMORUS,30
+    Shiny = True
+    Form = 1
+    PokeBall = LOVEBALL
+Pokemon = LIEPARD,30
+    Shiny = True
