@@ -669,8 +669,24 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[188]   # Centro Pokémon
+Name = Centro Pokémon
+ShowArea = true
+#-------------------------------
+[189]   # Tienda Pokémon
+Name = Tienda
+ShowArea = true
+#-------------------------------
+[190]   # Laboratorio
+Name = Laboratorio
+ShowArea = true
+#-------------------------------
+[191]   # Laboratorio Pokémon
+Name = Laboratorio
+ShowArea = true
+#-------------------------------
 [192]   # Casa_jugador
-Name = Casa @name
+Name = Casa
 ShowArea = true
 #-------------------------------
 [193]   # Ruta01_Beta
@@ -683,6 +699,13 @@ Bicycle = true
 Name = Escondite Secreto
 Outdoor = true
 ShowArea = true
+Bicycle = true
+#-------------------------------
+[195]   # Ruta02_Beta
+Name = Ruta 2
+Outdoor = true
+ShowArea = true
+Bicycle = true
 #-------------------------------
 [196]   # Bosque Magico
 Name = Bosque Caramelo
@@ -690,3 +713,64 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+Environment = ForestGrass
+#-------------------------------
+[197]   # Ruta03_Beta
+Name = Ruta 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Storm,100
+#-------------------------------
+[202]   # Carril Bici
+Name = Carril Bici
+Outdoor = true
+ShowArea = true
+Bicycle = true
+BicycleAlways = true
+Weather = Sun,50
+#-------------------------------
+[204]   # CristalCave
+Name = Cueva del Gran Cristal
+ShowArea = true
+Environment = Ice
+#-------------------------------
+[205]   # CristalCave2
+Name = Cueva del Gran Cristal
+ShowArea = true
+Environment = Ice
+#-------------------------------
+[206]   # CristalCave3
+Name = Cueva del Gran Cristal
+ShowArea = true
+Environment = Ice
+#-------------------------------
+[207]   # CristalCave4
+Name = Cueva del Gran Cristal
+ShowArea = true
+Environment = Ice
+#-------------------------------
+[208]   # Mazmorra Bosque
+Name = Bosque de la Desesperación
+Outdoor = true
+ShowArea = true
+Weather = Fog,100
+Dungeon = true
+Environment = None
+Flags = Dungeon,ScaleWildEncounterLevels
+#-------------------------------
+[209]   # Curva Empantanada
+Name = Cueva Esmeralda
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[210]   # Cueva Empantanadda2
+Name = Cueva Esmeralda
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[211]   # FinRuta
+Name = Ruta 3
+Outdoor = true
+ShowArea = true
+Bicycle = true

@@ -544,27 +544,27 @@ Pokemon = SERPERIOR,30
 [TEAMROCKET_F,Celia]
 LoseText = Mi hermana no mentia...
 LoseText_F = Mi hermana no mentia...
-Pokemon = DUGTRIO,30
+Pokemon = DUGTRIO,20
     Shadow = true
-Pokemon = SCRAFTY,30
+Pokemon = SCRAFTY,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_F,Lara]
 LoseText = Vuestra amistad es demasiado fuerte...
 LoseText_F = Vuestra amistad es demasiado fuerte...
-Pokemon = ARBOK,30
+Pokemon = ARBOK,20
     Shadow = true
-Pokemon = TRUBBISH,30
+Pokemon = TRUBBISH,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Callejas]
 LoseText = Mi corta escopeta no da una.
 LoseText_F = Mi corta escopeta no da una.
-Pokemon = HYPNO,30
+Pokemon = HYPNO,20
     Shadow = true
-Pokemon = DRIZZILE,30
+Pokemon = DRIZZILE,20
     Shadow = true
-Pokemon = OINKOLOGNE,30
+Pokemon = OINKOLOGNE,20
     Shadow = true
 #-------------------------------
 [AROMALADY,Marta]
@@ -688,21 +688,21 @@ Pokemon = BULBASAUR,10
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
 LoseText = Supongo que a uno le llega la hora de retirarse.
 LoseText_F = Supongo que a uno le llega la hora de retirarse.
-Pokemon = PERSIAN,30
+Pokemon = PERSIAN,25
     Moves = NASTYPLOT,HYPERVOICE,WATERPULSE,SUBSTITUTE
     AbilityIndex = 1
     Item = LIFEORB
     Nature = TIMID
     IV = 31,31,31,31,31,31
     EV = 0,0,4,252,252,0
-Pokemon = NIDOKING,30
+Pokemon = NIDOKING,25
     AbilityIndex = 2
     Item = LIFEORB
     Nature = TIMID
     IV = 31,0,31,31,31,31
     EV = 4,0,0,252,252,0
     Ball = GREATBALL
-Pokemon = EXCADRILL,30
+Pokemon = EXCADRILL,25
     Moves = IRONHEAD,EARTHQUAKE,RAPIDSPIN,FOCUSBLAST
     AbilityIndex = 2
     Item = LUMBERRY
@@ -710,7 +710,7 @@ Pokemon = EXCADRILL,30
     IV = 31,31,31,31,31,31
     EV = 180,252,0,52,0,0
     Ball = GREATBALL
-Pokemon = GARCHOMP,30
+Pokemon = GARCHOMP,25
     Moves = SWORDSDANCE,SCALESHOT,EARTHQUAKE,FACADE
     AbilityIndex = 1
     Item = LOADEDDICE
@@ -718,7 +718,7 @@ Pokemon = GARCHOMP,30
     IV = 31,0,31,31,31,31
     EV = 252,0,92,0,0,164
     Ball = ULTRABALL
-Pokemon = GASTRODON,30
+Pokemon = GASTRODON,25
     Moves = ANCIENTPOWER,YAWN,ICEBEAM,WEATHERBALL
     AbilityIndex = 1
     Item = LEFTOVERS
@@ -726,7 +726,7 @@ Pokemon = GASTRODON,30
     IV = 31,0,31,31,31,31
     EV = 252,0,204,0,0,52
     Ball = ULTRABALL
-Pokemon = URSALUNA,30
+Pokemon = URSALUNA,25
     Form = 1
     Moves = CALMMIND,REST,BLOODMOON,EARTHPOWER
     Item = CHESTOBERRY
@@ -760,32 +760,32 @@ Pokemon = COFAGRIGUS,28
 [TEAMROCKET_M,Javi]
 LoseText = Bueno tampoco fue para tanto.
 LoseText_F = Bueno tampoco fue para tanto.
-Pokemon = GREEDENT,30
+Pokemon = GREEDENT,20
     Shadow = true
-Pokemon = SKWOVET,23
+Pokemon = SKWOVET,20
     Shadow = true
-Pokemon = RATICATE,30
+Pokemon = RATICATE,20
     Form = 1
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Fernando]
 LoseText = Otra vez que voy a quedar afonico.
 LoseText_F = Otra vez que voy a quedar afonico.
-Pokemon = GIMMIGHOUL,30
+Pokemon = GIMMIGHOUL,20
     Form = 1
     Shadow = true
-Pokemon = CAPSAKID,30
+Pokemon = CAPSAKID,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_F,Silvia,2]
 LoseText = Quien te crees que eres tu para hacerme esto.
 LoseText_F = Quien te crees que eres tu para hacerme esto.
-Pokemon = MALAMAR,30
+Pokemon = MALAMAR,20
     Moves = SUPERPOWER,NIGHTSLASH,PSYCHOCUT,ROCKSLIDE
     Item = ASSAULTVEST
     IV = 31,31,31,31,31,31
     Shadow = true
-Pokemon = SMEARGLE,30
+Pokemon = SMEARGLE,20
     Moves = SPORE,MAGICCOAT,DARKVOID,DESTINYBOND
     AbilityIndex = 2
     Item = FOCUSSASH
@@ -796,71 +796,71 @@ Pokemon = SMEARGLE,30
 [TEAMROCKET_F,Ana]
 LoseText = Que pena, no te tragaste mi actuacion.
 LoseText_F = Que pena, no te tragaste mi actuacion.
-Pokemon = NICKIT,30
+Pokemon = NICKIT,20
     Shadow = true
-Pokemon = NINETALES,30
+Pokemon = NINETALES,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Guillermo,2]
 LoseText = Llego la hora de ir a tirar el anillo.
 LoseText_F = Llego la hora de ir a tirar el anillo.
-Pokemon = RATICATE,30
+Pokemon = RATICATE,20
     Form = 1
     Shadow = true
-Pokemon = RATICATE,30
+Pokemon = RATICATE,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Alex]
 LoseText = Pude hacerlo mejor...
 LoseText_F = Pude hacerlo mejor...
-Pokemon = HYPNO,30
+Pokemon = HYPNO,20
     Shadow = true
-Pokemon = DRIFLOON,27
+Pokemon = DRIFLOON,20
     Shadow = true
-Pokemon = MAROWAK,30
+Pokemon = MAROWAK,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Chope]
 LoseText = Deja de mirarme la frente.
 LoseText_F = Deja de mirarme la frente.
-Pokemon = RAMPARDOS,30
+Pokemon = RAMPARDOS,20
     Shadow = true
-Pokemon = BASTIODON,30
+Pokemon = BASTIODON,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_M,Nacho]
 LoseText = Me he vuelto a picar.
 LoseText_F = Me he vuelto a picar.
-Pokemon = PRIMEAPE,30
+Pokemon = PRIMEAPE,20
     Shadow = true
-Pokemon = SCRAGGY,30
+Pokemon = SCRAGGY,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_F,Raquel]
 LoseText = Joder, me revelo y triciono a esta gente.
 LoseText_F = Joder, me revelo y triciono a esta gente.
-Pokemon = LOUDRED,30
+Pokemon = LOUDRED,20
     Shadow = true
-Pokemon = JYNX,30
+Pokemon = JYNX,20
     Shadow = true
-Pokemon = ROTOM,30
+Pokemon = ROTOM,20
     Form = 1
     Shadow = true
 #-------------------------------
 [TEAMROCKET_F,Animi]
 LoseText = Tu comes caca o que.
 LoseText_F = Tu comer caca o que.
-Pokemon = WEEZING,30
+Pokemon = WEEZING,20
     Shadow = true
-Pokemon = GRAPPLOCT,30
+Pokemon = GRAPPLOCT,20
     Shadow = true
 #-------------------------------
 [TEAMROCKET_F,Lucia]
 LoseText = Si te pica te rascas.
 LoseText_F = Si te pica te rascas.
-Pokemon = LOPUNNY,30
+Pokemon = LOPUNNY,20
     Shadow = true
-Pokemon = GARDEVOIR,30
+Pokemon = GARDEVOIR,20
     Shadow = true
 #-------------------------------
 [LASS,Monica]
@@ -1121,3 +1121,96 @@ Pokemon = ENAMORUS,30
     PokeBall = LOVEBALL
 Pokemon = LIEPARD,30
     Shiny = True
+#-------------------------------
+[SUPERNERD,Icma]
+LoseText = ¿Quieres que te cuente la diferencia entre Vaya, Valla, Baya y Balla?
+LoseText_F = ¿Quieres que te cuente la diferencia entre Vaya, Valla, Baya y Balla?
+Pokemon = ALAKAZAM,30
+Pokemon = METAGROSS,30
+#-------------------------------
+[SCIENTIST,Tardigrado]
+LoseText = Vaya, veo que este combate no pudimos aguantarlo.
+LoseText_F = Vaya, veo que este combate no pudimos aguantarlo.
+Pokemon = LEAFEON,30
+Pokemon = RABSCA,30
+#-------------------------------
+[PSYCHIC_M,Denis]
+LoseText = Y si quiero jugar al Cyberbug 2099.
+LoseText_F = Y si quiero jugar al Cyberbug 2099.
+Pokemon = BRAIXEN,30
+Pokemon = QUILLADIN,30
+Pokemon = FROGADIER,30
+#-------------------------------
+[BLACKBELT,Mat]
+LoseText = Realmente nada depende.
+LoseText_F = Realmente nada depende.
+Pokemon = ANNIHILAPE,30
+#-------------------------------
+[BURGLAR,Axel]
+LoseText = Puedes pensar mal si.
+LoseText_F = Puedes pensar mal si.
+Pokemon = CLOYSTER,30
+Pokemon = JYNX,30
+#-------------------------------
+[BEAUTY,Arianne]
+LoseText = Sacame de aqui amigo.
+LoseText_F = Sacame de aqui amiga.
+Pokemon = ONIX,30
+Pokemon = LICKITUNG,30
+#-------------------------------
+[ELITEFOUR_Mario,Mario,0]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
+LoseText = Fue una pelea bastante justa.
+LoseText_F = Fue una pelea bastante justa.
+Pokemon = GLIMMORA,35
+    Moves = STEALTHROCK,MORTALSPIN,POWERGEM,EARTHPOWER
+    AbilityIndex = 0
+    Item = REDCARD
+    Nature = TIMID
+    IV = 31,31,31,31,31,31
+    EV = 0,0,4,252,252,0
+    Ball = DUSKBALL
+Pokemon = GARGANACL,35
+    Moves = SALTCURE,BODYPRESS,IRONDEFENSE,RECOVER
+    AbilityIndex = 0
+    Item = LEFTOVERS
+    Nature = CAREFUL
+    IV = 31,31,31,31,31,31
+    EV = 252,52,0,0,0,204
+    Ball = TIMERBALL
+Pokemon = LYCANROC,35
+    Form = 2
+    Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
+    Item = LIFEORB
+    Nature = JOLLY
+    IV = 31,31,31,31,31,31
+    EV = 0,252,4,252,0,0
+    Ball = LEVELBALL
+Pokemon = TYRANITAR,35
+    Moves = DRAGONDANCE,CRUNCH,FIREPUNCH,AQUATAIL
+    AbilityIndex = 1
+    Item = TYRANITARITE
+    Nature = ADAMANT
+    IV = 31,31,31,31,31,31
+    EV = 0,252,0,252,0,4
+    Shiny = true
+    Ball = SAFARIBALL
+#-------------------------------
+[POKEMANIAC,Toby]
+LoseText = Por saberme no me se ni las tablas de multiplicar.
+LoseText_F = Por saberme no me se ni las tablas de multiplicar.
+Pokemon = DREDNAW,30
+Pokemon = KLEAVOR,30
+#-------------------------------
+[SCIENTIST,Euler]
+LoseText = Tengo que practicar la demostracion.
+LoseText_F = Tengo que practicar la demostracion.
+Pokemon = MINIOR,30
+    Form = 12
+Pokemon = CASTFORM,30
+#-------------------------------
+[SUPERNERD,Euclides]
+LoseText = Veo que no era divisible.
+LoseText_F = Veo que no era divisible.
+Pokemon = TANDEMAUS,30
+Pokeman = MAGNETON,30

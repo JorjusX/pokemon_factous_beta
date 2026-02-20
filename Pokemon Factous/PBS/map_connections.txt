@@ -58,13 +58,17 @@
 130,North,14,138,South,0
 # Desierto (153) - Ruta 4 (152)
 153,North,0,152,South,10
+# San Berna (156) - Ruta 6 (179)
+156,East,31,179,West,0
 # Ruta 5 (160) - San Berna (156)
 160,North,13,156,South,0
-# Ruta 6 (179) - San Berna (156)
-179,West,0,156,East,31
+# FinRuta (211) - Ciudad (198)
+211,West,0,198,East,21
+# Beta Jugable (187) - Ruta01_Beta (193)
+187,North,2,193,South,0
+# Ruta03_Beta (197) - Ruta01_Beta (193)
+197,West,32,193,East,0
+# Ruta02_Beta (195) - Ruta01_Beta (193)
+195,East,24,193,West,0
 # Ruta Oculta (194) - Beta Jugable (187)
 194,West,0,187,East,16
-# Ruta01_Beta (193) - Beta Jugable (187)
-193,South,0,187,North,0
-# Ruta01_Beta (193) - Ruta Oculta (194)
-193,East,51,194,West,0
