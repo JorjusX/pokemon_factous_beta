@@ -332,7 +332,7 @@ LoseText_F = Realmente eres un peso pesado.
 Pokemon = HITMONTOP,20
 #-------------------------------
 [LEADER_Inigo,Iñigo]
-Items = FULLRESTORE,MEGARING
+Items = FULLRESTORE,FULLRESTORE,MEGARING
 LoseText = Lo admito, eres fuerte.
 LoseText_F = Lo admito, eres fuerte.
 Pokemon = MACHAMP,20
@@ -506,7 +506,7 @@ Pokemon = GLIGAR,14
 Items = FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
 LoseText = Como alguien tan pobre como tu pudo derrotarme.
 LoseText_F = Como alguien tan pobre como tu pudo derrotarme.
-Pokemon = ELECTRODE,30
+Pokemon = ELECTRODE,20
     Form = 1
     Moves = DISCHARGE,VOLTSWITCH,RAINDANCE,ENERGYBALL
     AbilityIndex = 2
@@ -515,7 +515,7 @@ Pokemon = ELECTRODE,30
     IV = 31,31,31,31,31,31
     EV = 252,0,4,0,252,0
     Ball = LUXURYBALL
-Pokemon = LUDICOLO,30
+Pokemon = LUDICOLO,20
     Moves = LEECHSEED,GIGADRAIN,ICEBEAM,SCALD
     AbilityIndex = 1
     Item = LEFTOVERS
@@ -523,7 +523,7 @@ Pokemon = LUDICOLO,30
     IV = 31,31,31,31,31,31
     EV = 252,0,252,0,4,0
     Ball = LUXURYBALL
-Pokemon = CRADILY,30
+Pokemon = CRADILY,20
     Moves = CURSE,SYNTHESIS,BULLETSEED,ROCKBLAST
     AbilityIndex = 1
     Item = LOADEDDICE
@@ -531,7 +531,7 @@ Pokemon = CRADILY,30
     IV = 31,31,31,31,31,31
     EV = 252,0,4,0,0,252
     Ball = LUXURYBALL
-Pokemon = SERPERIOR,30
+Pokemon = SERPERIOR,20
     Moves = LEAFSTORM,HIDDENPOWER,DRAGONPULSE,GIGADRAIN
     AbilityIndex = 1
     Item = ASSAULTVEST
@@ -899,10 +899,8 @@ Pokemon = MAROWAK,30
     Form = 1
 #-------------------------------
 [HIKER,Chullo]
-LoseText = El ser humano nace bueno, son las cuevas de este 
-juego los que los corrompen.
-LoseText_F = El ser humano nace bueno, son las cuevas de este 
-juego los que los corrompen.
+LoseText = El ser humano nace bueno, son las cuevas de este
+LoseText_F = El ser humano nace bueno, son las cuevas de este
 Pokemon = ONIX,20
 Pokemon = GRAVELER,25
 #-------------------------------
@@ -913,56 +911,48 @@ Pokemon = GARDEVOIR,25
 Pokemon = LOPUNNY,25
 Pokemon = MEOWSCARADA,25
 Pokemon = VAPOREON,30
-    Shiny = True
+    Shiny = true
 #-------------------------------
 [CINTIA,Cintia]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
-LoseText = Enhorabuena, cruza la puerta tras de mi para 
-reclamar tu premio.
-LoseText_F = Enhorabuena, cruza la puerta tras de mi para 
-reclamar tu premio.
+LoseText = Enhorabuena, cruza la puerta tras de mi para
+LoseText_F = Enhorabuena, cruza la puerta tras de mi para
 Pokemon = SPIRITOMB,74
-    IV = 31,31,31,31,31,31
-    Item = SITRUSBERRY
-    AbilityIndex = 1
     Moves = SHADOWBALL,DARKPULSE,WILLOWISP,SUCKERPUNCH
-    EV = 252,6,0,252,0,0
-    PokeBall = DUSKBALL
-Pokemon = ROSERADE,74
-    IV = 31,0,31,31,31,31
-    Item = EXPERTBELT
     AbilityIndex = 1
-    Moves = DAZZLINGGLEAM,SHADOWBALL,SLUDGEBOMB,ENERGYBALL
-    EV = 52,0,0,252,0,204
-    PokeBall = NESTBALL
-Pokemon = TOGEKISS,74
-    IV = 31,0,31,31,31,31
-    Item = LEFTOVERS
-    AbilityIndex = 1
-    Moves = AIRSLASH,DAZZLINGGLEAM,AURASPHERE,THUNDERWAVE
-    EV = 52,0,0,252,0,204
-    PokeBall = LOVEBALL
-Pokemon = LUCARIO,76
-    IV = 31,0,31,31,31,31
-    Item = LUCARIONITE
-    AbilityIndex = 1
-    Moves = AURASPHERE,DRAGONPULSE,FLASHCANNON,PSYCHIC
-    EV = 52,0,0,252,0,204
-    PokeBall = TIMERBALL
-Pokemon = MILOTIC,74
-    IV = 31,0,31,31,31,31
-    Item = FLAMEORB
-    AbilityIndex = 0
-    Moves = RECOVER,MIRRORCOAT,ICEBEAM,SCALD
-    EV = 252,0,252,6,0,0
-    PokeBall = LUREBALL
-Pokemon = GARCHOMP,78
+    Item = SITRUSBERRY
     IV = 31,31,31,31,31,31
-    Item = YACHEBERRY
+    EV = 252,6,0,252,0,0
+Pokemon = ROSERADE,74
+    Moves = DAZZLINGGLEAM,SHADOWBALL,SLUDGEBOMB,ENERGYBALL
     AbilityIndex = 1
+    Item = EXPERTBELT
+    IV = 31,0,31,31,31,31
+    EV = 52,0,0,252,0,204
+Pokemon = TOGEKISS,74
+    Moves = AIRSLASH,DAZZLINGGLEAM,AURASPHERE,THUNDERWAVE
+    AbilityIndex = 1
+    Item = LEFTOVERS
+    IV = 31,0,31,31,31,31
+    EV = 52,0,0,252,0,204
+Pokemon = LUCARIO,76
+    Moves = AURASPHERE,DRAGONPULSE,FLASHCANNON,PSYCHIC
+    AbilityIndex = 1
+    Item = LUCARIONITE
+    IV = 31,0,31,31,31,31
+    EV = 52,0,0,252,0,204
+Pokemon = MILOTIC,74
+    Moves = RECOVER,MIRRORCOAT,ICEBEAM,SCALD
+    AbilityIndex = 0
+    Item = FLAMEORB
+    IV = 31,0,31,31,31,31
+    EV = 252,0,252,6,0,0
+Pokemon = GARCHOMP,78
     Moves = DRAGONCLAW,EARTHQUAKE,SWORDSDANCE,POISONJAB
+    AbilityIndex = 1
+    Item = YACHEBERRY
+    IV = 31,31,31,31,31,31
     EV = 52,252,0,0,0,204
-    PokeBall = MASTERBALL
 #-------------------------------
 [GENTLEMAN,Danielito]
 LoseText = Eres un chico sublime.
@@ -971,10 +961,8 @@ Pokemon = MINCCINO,20
 Pokemon = FURFROU,20
 #-------------------------------
 [POKEMONRANGER_M,Pablo]
-LoseText = Espero que si te guste, porque todos nosotros nos lo 
-hemos trabajado mucho.
-LoseText_F = Espero que si te guste, porque todos nosotros nos lo 
-hemos trabajado mucho.
+LoseText = Espero que si te guste, porque todos nosotros nos lo
+LoseText_F = Espero que si te guste, porque todos nosotros nos lo
 Pokemon = MACHOKE,28
 #-------------------------------
 [PSYCHIC_F,Carlota]
@@ -983,10 +971,10 @@ LoseText_F = El trabajo duro tiene su recompensa.
 Pokemon = GOTHORITA,32
 #-------------------------------
 [LEADER_Pablo,Pablo]
-Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
+Items = FULLRESTORE,MEGARING,TERAORB
 LoseText = Fue una pelea bastante justa.
 LoseText_F = Fue una pelea bastante justa.
-Pokemon = GLIMMORA,35
+Pokemon = GLIMMORA,20
     Moves = STEALTHROCK,MORTALSPIN,POWERGEM,EARTHPOWER
     AbilityIndex = 0
     Item = REDCARD
@@ -994,7 +982,7 @@ Pokemon = GLIMMORA,35
     IV = 31,31,31,31,31,31
     EV = 0,0,4,252,252,0
     Ball = DUSKBALL
-Pokemon = GARGANACL,35
+Pokemon = GARGANACL,20
     Moves = SALTCURE,BODYPRESS,IRONDEFENSE,RECOVER
     AbilityIndex = 0
     Item = LEFTOVERS
@@ -1002,7 +990,7 @@ Pokemon = GARGANACL,35
     IV = 31,31,31,31,31,31
     EV = 252,52,0,0,0,204
     Ball = TIMERBALL
-Pokemon = LYCANROC,35
+Pokemon = LYCANROC,20
     Form = 2
     Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
     Item = LIFEORB
@@ -1010,7 +998,7 @@ Pokemon = LYCANROC,35
     IV = 31,31,31,31,31,31
     EV = 0,252,4,252,0,0
     Ball = LEVELBALL
-Pokemon = TYRANITAR,35
+Pokemon = TYRANITAR,20
     Moves = DRAGONDANCE,CRUNCH,FIREPUNCH,AQUATAIL
     AbilityIndex = 1
     Item = TYRANITARITE
@@ -1113,14 +1101,12 @@ Pokemon = TRUBBISH,30
 Pokemon = GRIMER,30
 #-------------------------------
 [POKEMONTRAINER_Maria,Maria]
-LoseText = Hola.
-LoseText_F = Hola.
-Pokemon = ENAMORUS,30
-    Shiny = True
-    Form = 1
-    PokeBall = LOVEBALL
-Pokemon = LIEPARD,30
-    Shiny = True
+LoseText = Me divertí mucho con esto.
+LoseText_F = Me divertí mucho con esto.
+Pokemon = DELCATTY,15
+Pokemon = LUXIO,15
+Pokemon = LIEPARD,15
+    Shiny = true
 #-------------------------------
 [SUPERNERD,Icma]
 LoseText = ¿Quieres que te cuente la diferencia entre Vaya, Valla, Baya y Balla?
@@ -1158,43 +1144,98 @@ LoseText_F = Sacame de aqui amiga.
 Pokemon = ONIX,30
 Pokemon = LICKITUNG,30
 #-------------------------------
-[ELITEFOUR_Mario,Mario,0]
+[ELITEFOUR_Mario,Mario,2]
 Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
-LoseText = Fue una pelea bastante justa.
-LoseText_F = Fue una pelea bastante justa.
-Pokemon = GLIMMORA,35
-    Moves = STEALTHROCK,MORTALSPIN,POWERGEM,EARTHPOWER
-    AbilityIndex = 0
-    Item = REDCARD
-    Nature = TIMID
+LoseText = Eres un gran entrenador, vas a llegar muy lejos.
+LoseText_F = Eres una gran entrenadora, vas a llegar muy lejos.
+Pokemon = FERROTHORN,30
+    Moves = STEALTHROCK,LEECHSEED,THUNDERWAVE,POWERWHIP
+    Item = ROCKYHELMET
+    Nature = IMPISH
     IV = 31,31,31,31,31,31
-    EV = 0,0,4,252,252,0
+    EV = 252,0,132,0,0,124
     Ball = DUSKBALL
-Pokemon = GARGANACL,35
-    Moves = SALTCURE,BODYPRESS,IRONDEFENSE,RECOVER
-    AbilityIndex = 0
-    Item = LEFTOVERS
-    Nature = CAREFUL
-    IV = 31,31,31,31,31,31
-    EV = 252,52,0,0,0,204
-    Ball = TIMERBALL
-Pokemon = LYCANROC,35
-    Form = 2
-    Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
-    Item = LIFEORB
+Pokemon = LUCARIO,30
+    Moves = CLOSECOMBAT,SWORDSDANCE,BULLETPUNCH,CRUNCH
+    Item = LUCARIONITE
     Nature = JOLLY
     IV = 31,31,31,31,31,31
     EV = 0,252,4,252,0,0
-    Ball = LEVELBALL
-Pokemon = TYRANITAR,35
-    Moves = DRAGONDANCE,CRUNCH,FIREPUNCH,AQUATAIL
-    AbilityIndex = 1
-    Item = TYRANITARITE
-    Nature = ADAMANT
+    Ball = GREATBALL
+Pokemon = HEATRAN,30
+    Moves = FLAMETHROWER,EARTHPOWER,ANCIENTPOWER,WILLOWISP
+    Item = LIFEORB
+    Nature = MODEST
     IV = 31,31,31,31,31,31
-    EV = 0,252,0,252,0,4
+    EV = 0,0,0,252,252,4
+    Ball = TIMERBALL
+Pokemon = AEGISLASH,30
+    Moves = SHADOWBALL,KINGSSHIELD,SHADOWSNEAK,SACREDSWORD
+    Item = LIFEORB
+    Nature = QUIET
+    IV = 31,31,31,31,31,31
+    EV = 0,236,0,12,252,4
     Shiny = true
-    Ball = SAFARIBALL
+    Ball = LUXURYBALL
+#-------------------------------
+[ELITEFOUR_Mario,Mario,1]
+Items = FULLRESTORE,MEGARING,TERAORB
+LoseText = Eres un gran entrenador, vas a llegar muy lejos.
+LoseText_F = Eres una gran entrenadora, vas a llegar muy lejos.
+Pokemon = FERROTHORN,25
+    Moves = STEALTHROCK,LEECHSEED,THUNDERWAVE,POWERWHIP
+    Item = ROCKYHELMET
+    Ball = DUSKBALL
+Pokemon = LUCARIO,25
+    Moves = CLOSECOMBAT,SWORDSDANCE,BULLETPUNCH,CRUNCH
+    Item = LUCARIONITE
+    Ball = GREATBALL
+Pokemon = AEGISLASH,25
+    Moves = SHADOWBALL,KINGSSHIELD,SHADOWSNEAK,SACREDSWORD
+    Item = LIFEORB
+    Shiny = true
+    Ball = LUXURYBALL
+#-------------------------------
+[ELITEFOUR_Mario,Mario,3]
+Items = FULLRESTORE,FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
+LoseText = Eres un gran entrenador, vas a llegar muy lejos.
+LoseText_F = Eres una gran entrenadora, vas a llegar muy lejos.
+Pokemon = FERROTHORN,35
+    Moves = STEALTHROCK,LEECHSEED,THUNDERWAVE,POWERWHIP
+    Item = ROCKYHELMET
+    Nature = IMPISH
+    IV = 31,31,31,31,31,31
+    EV = 252,0,132,0,0,124
+    Ball = DUSKBALL
+Pokemon = GENESECT,35
+    Moves = UTURN,IRONHEAD,FLAMETHROWER,ICEBEAM
+    Item = CHOICESCARF
+    Nature = HASTY
+    IV = 31,31,31,31,31,31
+    EV = 0,248,0,252,8,0
+    Ball = MASTERBALL
+Pokemon = LUCARIO,35
+    Moves = CLOSECOMBAT,SWORDSDANCE,BULLETPUNCH,CRUNCH
+    Item = LUCARIONITE
+    Nature = JOLLY
+    IV = 31,31,31,31,31,31
+    EV = 0,252,4,252,0,0
+    Ball = GREATBALL
+Pokemon = HEATRAN,35
+    Moves = FLAMETHROWER,EARTHPOWER,ANCIENTPOWER,WILLOWISP
+    Item = LIFEORB
+    Nature = MODEST
+    IV = 31,31,31,31,31,31
+    EV = 0,0,0,252,252,4
+    Ball = TIMERBALL
+Pokemon = AEGISLASH,35
+    Moves = SHADOWBALL,KINGSSHIELD,SHADOWSNEAK,SACREDSWORD
+    Item = LIFEORB
+    Nature = QUIET
+    IV = 31,31,31,31,31,31
+    EV = 0,236,0,12,252,4
+    Shiny = true
+    Ball = LUXURYBALL
 #-------------------------------
 [POKEMANIAC,Toby]
 LoseText = Por saberme no me se ni las tablas de multiplicar.
@@ -1213,4 +1254,180 @@ Pokemon = CASTFORM,30
 LoseText = Veo que no era divisible.
 LoseText_F = Veo que no era divisible.
 Pokemon = TANDEMAUS,30
-Pokeman = MAGNETON,30
+#-------------------------------
+[COOLTRAINER_M,Daniel]
+LoseText = En ocasiones hay que volver al inicio para descubrir nuevos horizones.
+LoseText_F = En ocasiones hay que volver al inicio para descubrir nuevos horizones.
+Pokemon = SNORLAX,15
+Pokemon = DIGLETT,15
+#-------------------------------
+[COOLTRAINER_F,Arancha]
+LoseText = Te recomiendo no gastar tus PokeBall a lo loco.
+LoseText_F = Te recomiendo no gastar tus PokeBall a lo loco.
+Pokemon = SIRFETCHD,15
+Pokemon = DIGLETT,15
+#-------------------------------
+[YOUNGSTER,Alcaine]
+LoseText = Tienes en la mochila objetos para curarte o entrar a la PC desde cualquier lugar.
+LoseText_F = Tienes en la mochila objetos para curarte o entrar a la PC desde cualquier lugar.
+Pokemon = FUECOCO,14
+Pokemon = GASTLY,14
+#-------------------------------
+[LASS,Maria]
+LoseText = Tambien puedes ir por una cueva cristalina.
+LoseText_F = Tambien puedes ir por una cueva cristalina.
+Pokemon = PIKACHU,14
+Pokemon = KADABRA,16
+#-------------------------------
+[GENTLEMAN,Cesar]
+LoseText = No subestimes el poder de un dragón.
+LoseText_F = Nunca subestimes el poder de un dragon.
+Pokemon = NOIBAT,20
+Pokemon = JANGMOO,20
+#-------------------------------
+[CRUSHGIRL,Paulita]
+LoseText = Admite que soy fuerte.
+LoseText_F = Admite que soy fuerte.
+Pokemon = MONFERNO,20
+Pokemon = COMBUSKEN,20
+#-------------------------------
+[CHANNELER,Angela]
+LoseText = La proxima vez le preguntaré al horscopo.
+LoseText_F = La proxima vez le preguntaré al horscopo.
+Pokemon = MEDITITE,20
+Pokemon = JYNX,20
+#-------------------------------
+[ELITEFOUR_Alex,Alex]
+Items = FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
+LoseText = Tu victoria fue fantasmagorica, rapida y ni yo lo vi venir.
+LoseText_F = Tu victoria fue fantasmagorica, rapida y ni yo lo vi venir.
+Pokemon = MIMIKYU,20
+    Moves = SWORDSDANCE,SHADOWSNEAK,SHADOWCLAW,FOULPLAY
+    Item = LIFEORB
+    Nature = JOLLY
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
+Pokemon = DRAGAPULT,20
+    Moves = DRAGONDARTS,SHADOWBALL,HYDROPUMP,UTURN
+    AbilityIndex = 2
+    Item = CHOICESPECS
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
+Pokemon = COFAGRIGUS,20
+    Moves = CALMMIND,PAINSPLIT,KNOCKOFF,WILLOWISP
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+    Ball = DUSKBALL
+Pokemon = GENGAR,20
+    Moves = SHADOWBALL,SLUDGEWAVE,DESTINYBOND,TAUNT
+    Item = GENGARITE
+    Nature = TIMID
+    IV = 31,31,31,31,31,31
+    EV = 4,0,0,252,252,0
+    Shiny = true
+    Ball = DUSKBALL
+#-------------------------------
+[CRUSHGIRL,Balkis]
+LoseText = El combate fue la bomba.
+LoseText_F = El combate fue la bomba.
+Pokemon = FORRETRESS,25
+    Moves = EXPLOSION
+    Item = FOCUSSASH
+Pokemon = GARGANACL,25
+    Moves = EXPLOSION,EARTHQUAKE,BRICKBREAK,ICEPUNCH
+    Item = LIFEORB
+#-------------------------------
+[PSYCHIC_F,Sofia]
+LoseText = Vaya desastre.
+LoseText_F = Vaya desastre.
+Pokemon = GRAFAIAI,25
+    AbilityIndex = 2
+    Item = FOCUSSASH
+Pokemon = RABSCA,25
+    Moves = REVIVALBLESSING,PROTECT,ROLLOUT,PSYBEAM
+    AbilityIndex = 1
+    Item = FOCUSSASH
+#-------------------------------
+[PAINTER,Noemí]
+LoseText = Tocará llorar.
+LoseText_F = Tocará llorar.
+Pokemon = SMEARGLE,20
+    Moves = HEADLONGRUSH,CLOSECOMBAT,DRAGONASCENT,VCREATE
+    AbilityIndex = 2
+    Item = CHOICEBAND
+    Nature = SERIOUS
+    EV = 4,252,0,252,0,0
+    Shiny = true
+Pokemon = SPINDA,20
+    Moves = ASSIST
+    AbilityIndex = 2
+    Item = LEFTOVERS
+    Nature = JOLLY
+Pokemon = LIEPARD,20
+    Moves = ASSIST
+    AbilityIndex = 2
+    Item = FOCUSSASH
+    Nature = ADAMANT
+Pokemon = PERSIAN,20
+    Form = 1
+    Moves = ASSIST
+    AbilityIndex = 0
+    Item = CHOICEBAND
+    Nature = JOLLY
+Pokemon = HYPNO,20
+    Moves = ASSIST
+    AbilityIndex = 2
+    Item = METRONOME
+    Nature = ADAMANT
+Pokemon = INFERNAPE,20
+    Moves = ASSIST
+    AbilityIndex = 1
+    Item = WHITEHERB
+#-------------------------------
+[SCIENTIST,Crespo]
+LoseText = No lo vi venir.
+LoseText_F = No lo vi venir.
+Pokemon = EEVEE,15
+    Shiny = true
+Pokemon = STARYU,15
+    Shiny = true
+#-------------------------------
+[SWIMMER_F,Laura]
+LoseText = Veo que tu tambien eres fuerte.
+LoseText_F = Veo que tu tambien eres fuerte.
+Pokemon = CURSOLA,15
+Pokemon = SEISMITOAD,15
+#-------------------------------
+[YOUNGSTER,SacoDeBoxeo]
+LoseText = Vaya desastre.
+LoseText_F = Vaya desastre.
+Pokemon = MAGIKARP,100
+    Name = Box Bag
+    Moves = SPLASH
+#-------------------------------
+[YOUNGSTER,Capa]
+LoseText = Vaya combate de payasos.
+LoseText_F = Vaya combate de payasos.
+Pokemon = ZOROARK,15
+Pokemon = NUZLEAF,15
+#-------------------------------
+[LASS,Cris]
+LoseText = Fin de ruta.
+LoseText_F = Fin de ruta.
+Pokemon = PRIMARINA,15
+Pokemon = AZUMARILL,15
+    Moves = BELLYDRUM,AQUAJET,PLAYROUGH,WATERFALL
+    AbilityIndex = 1
+    Item = SITRUSBERRY
+#-------------------------------
+[BIKER,Jorge]
+LoseText = Realmente soy un buenazo.
+LoseText_F = Realmente soy un buenazo.
+Pokemon = MAWILE,15
+Pokemon = TINKATON,15
+#-------------------------------
+[CUEBALL,Javi]
+LoseText = Podemos hablar un dia de estos.
+LoseText_F = Bueno esta bien.
+Pokemon = PARASECT,15
+Pokemon = NIDOQUEEN,15

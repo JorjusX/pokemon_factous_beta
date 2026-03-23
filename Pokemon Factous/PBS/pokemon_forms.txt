@@ -169,6 +169,8 @@ Weight = 21.0
 Color = Brown
 Pokedex = Controla la electricidad a voluntad. Puede subirse a su propia cola y desplazarse flotando con sus poderes telequinéticos.
 Generation = 7
+Flags = InheritFormWithEverStone
+Evolutions = PIKACHU,Item,SUNSTONE
 #-------------------------------
 [SANDSHREW,1]
 FormName = Forma Alola

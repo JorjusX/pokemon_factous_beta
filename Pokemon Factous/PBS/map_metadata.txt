@@ -722,6 +722,12 @@ ShowArea = true
 Bicycle = true
 Weather = Storm,100
 #-------------------------------
+[198]   # Ciudad
+Name = Ciudad Pedregal
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [202]   # Carril Bici
 Name = Carril Bici
 Outdoor = true

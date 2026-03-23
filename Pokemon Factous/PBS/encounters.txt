@@ -52,8 +52,8 @@ LandNight,21
 Land,21
     50,RATTATA,12,15
     30,POOCHYENA,11,15
-    10,SHINX,10,11
     10,SHINX,10,12
+    10,SHINX,10,11
 Water,2
     60,MAGIKARP,7,10
     30,GOLDEEN,11,14
@@ -87,8 +87,8 @@ Land,21
     20,CATERPIE,10
     20,SUNKERN,12
     20,WEEDLE,10
-    15,PIDGEY,12,14
     15,PIDGEY,10,14
+    15,PIDGEY,12,14
     5,KAKUNA,10
     5,METAPOD,10
 LandNight,21
@@ -211,19 +211,19 @@ RockSmash,50
 #-------------------------------
 [049] # Cueva de Roca P1
 Cave,5
-    20,MAGNETON,14,17
     20,MAGNETON,14,16
-    20,NOSEPASS,13,14
+    20,MAGNETON,14,17
     20,NOSEPASS,14,15
+    20,NOSEPASS,13,14
     10,GEODUDE,13,15
     10,MAWILE,14,16
 #-------------------------------
 [050] # Cueva de Roca S1
 Cave,5
-    20,MAGNETON,14,17
     20,MAGNETON,14,16
-    20,NOSEPASS,13,14
+    20,MAGNETON,14,17
     20,NOSEPASS,14,15
+    20,NOSEPASS,13,14
     10,BURMY,14,16
     10,GEODUDE,13,15
 #-------------------------------
@@ -251,8 +251,8 @@ Land,21
     20,RHYHORN,16,18
     10,AIPOM,14,17
     10,GIRAFARIG,16,17
-    10,VENONAT,15,18
     10,VENONAT,15,17
+    10,VENONAT,15,18
     5,HERACROSS,15,17
     5,TAUROS,15,16
     4,PINSIR,16
@@ -283,13 +283,13 @@ Land,21
     20,MAREEP,16,18
     20,ODDISH,15,17
     13,BONSLY,14,16
-    10,DITTO,16,18
     10,DITTO,15,17
+    10,DITTO,16,18
     10,LOTAD,15,18
     10,LOTAD,15,17
     5,BONSLY,14,17
-    1,BONSLY,15
     1,BONSLY,15,16
+    1,BONSLY,15
 Water,2
     60,TENTACOOL,14,19
     30,MANTYKE,15,16
@@ -667,3 +667,164 @@ Cave,5
 [183] # Bosque Magico
 Land,21
     20,CHIKORITA,5
+#-------------------------------
+[187] # Beta Jugable
+SuperRod,2
+    99,MAGIKARP,5
+    1,FEEBAS,5
+Water,2
+    20,SURSKIT,5,14
+    20,TENTACOOL,5,14
+    20,WINGULL,5,14
+#-------------------------------
+[193] # Ruta01_Beta
+Land,21
+    20,ODDISH,5,14
+    20,STARLY,5,14
+    10,MINCCINO,5,14
+    10,NINCADA,5,14
+    10,RALTS,5,14
+    10,SHINX,5,14
+    5,NIDORANfE,5,14
+    5,NIDORANmA,5,14
+#-------------------------------
+[194] # Ruta Oculta
+Water,2
+    20,MARILL,5,14
+    20,POLIWAG,5,14
+SuperRod
+    20,CARVANHA,5,14
+#-------------------------------
+[195] # Ruta02_Beta
+Land,21
+    20,GROWLITHE,10,20
+    20,GROWLITHE_1,10,20
+    20,PSYDUCK,10,20
+#-------------------------------
+[196] # Bosque Magico
+Water,2
+    20,SLOWPOKE,10,15
+    20,SLOWPOKE_1,10,15
+SuperRod
+    20,CLOYSTER,10,15
+Land,21
+    20,FLOETTE_5,10,15
+    20,LITWICK,10,15
+    20,MAREEP,10,15
+    20,PONYTA_1,10,15
+    20,STARYU,10,15
+    15,COTTONEE,10,15
+    15,SNUBBULL,10,15
+    15,SWABLU,10,15
+    10,GRIMER_1,10,15
+    10,PIKACHU,10,15
+    10,SLOWPOKE,10,15
+    10,SLOWPOKE_1,10,15
+    5,WOOPER,10,15
+#-------------------------------
+[197] # Ruta03_Beta
+Land,21
+    40,GOOMY_1,10,15
+    20,ABRA,10,15
+    20,APPLIN,10,15
+    20,BRONZOR,10,15
+    20,FLETCHLING,10,15
+    20,LOTAD,10,15
+    20,MAGNEMITE,10,15
+    20,MAREEP,10,15
+    20,NUMEL,10,15
+    20,ROTOM,10,15
+    20,VOLTORB_1,10,15
+Water,2
+    20,TYMPOLE,10,15
+    20,TYNAMO,10,15
+    20,WISHIWASHI,10,15
+SuperRod
+    20,BASCULIN_3,10,15
+    20,CARVANHA,10,15
+#-------------------------------
+[204] # CristalCave
+Cave,5
+    40,ZUBAT,10,20
+    20,CLEFAIRY,10,20
+    20,GEODUDE,10,20
+    20,JIGGLYPUFF,10,20
+#-------------------------------
+[205] # CristalCave2
+Cave,5
+    20,DIGLETT,10,20
+    20,ONIX,10,20
+    10,ARON,10,20
+#-------------------------------
+[206] # CristalCave3
+Cave,5
+    20,MAWILE,10,20
+    20,SABLEYE,10,20
+    20,SKORUPI,10,20
+    20,STUNFISK,10,20
+#-------------------------------
+[207] # CristalCave4
+Cave,5
+    20,BINACLE,10,20
+    20,GLIMMET,10,20
+    20,MINIOR,10,20
+#-------------------------------
+[208] # Mazmorra Bosque
+Land,21
+    60,GASTLY,20
+    40,ELGYEM,5
+    40,MINIOR,20
+    40,WEEZING_1,20
+    40,WOBBUFFET,5
+    20,HATENNA,5
+    20,IMPIDIMP,5
+    20,PHANTUMP,5
+    15,BELDUM,5
+    15,HONEDGE,5
+    15,ZORUA,5
+    1,BLACEPHALON,20
+    1,BUZZWOLE,20
+    1,CELESTEELA,20
+    1,GUZZLORD,20
+    1,KARTANA,20
+    1,NIHILEGO,20
+    1,PHEROMOSA,20
+    1,POIPOLE,20
+    1,STAKATAKA,20
+    1,XURKITREE,20
+#-------------------------------
+[209] # Curva Empantanada
+Cave,5
+    20,CROAGUNK,15,20
+    20,GEODUDE_1,15,20
+    20,GLIGAR,15,20
+    20,MAGNEMITE,15,20
+    20,ROGGENROLA,15,20
+    20,ROLYCOLY,15,20
+    20,SMEARGLE,15,20
+    20,WOOPER_1,15,20
+Land,41
+    30,PARAS,15,20
+    20,FOMANTIS,15,20
+    20,GRIMER_1,15,20
+    20,MORELULL,15,20
+    20,SHROOMISH,15,20
+Water,2
+    20,DEWPIDER,15,20
+    20,SURSKIT,15,20
+#-------------------------------
+[210] # Cueva Empantanadda2
+Cave,5
+    20,BINACLE,15,20
+    20,CUBONE,15,20
+    20,CUBONE_1,15,20
+    20,DIGLETT,15,20
+    20,DIGLETT_1,15,20
+    20,DRILBUR,15,20
+    20,GLIMMET,15,20
+    20,MEOWTH_2,15,20
+    20,PHANPY,15,20
+    20,SALANDIT,15,20
+    20,SHELLOS_1,15,20
+    20,WHISMUR,15,20
+    20,WOOBAT,15,20

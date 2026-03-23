@@ -454,11 +454,18 @@ VictoryBGM = RSE 151 Victory! (Gym Leader)
 [POKEMONTRAINER_Maria]
 Name = Entrenador Pokémon
 Gender = Female
-BaseMoney = 2500
+BaseMoney = 2505
 #-------------------------------
 [ELITEFOUR_Mario]
 Name = Alto Mando
 Gender = Male
 BaseMoney = 3000
+BattleBGM = Battle Elite
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ELITEFOUR_Alex]
+Name = Alto Mando
+Gender = Male
+BaseMoney = 2000
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
