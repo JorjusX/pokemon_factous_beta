@@ -736,6 +736,11 @@ ShowArea = true
 Bicycle = true
 BicycleAlways = true
 Weather = Sun,50
+SnapEdges = true
+#-------------------------------
+[203]   # Entrada Carril Bici
+Name = Entrada Carril Bici
+ShowArea = true
 #-------------------------------
 [204]   # CristalCave
 Name = Cueva del Gran Cristal
