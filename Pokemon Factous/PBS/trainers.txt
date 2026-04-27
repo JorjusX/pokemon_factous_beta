@@ -1431,3 +1431,32 @@ LoseText = Podemos hablar un dia de estos.
 LoseText_F = Bueno esta bien.
 Pokemon = PARASECT,15
 Pokemon = NIDOQUEEN,15
+#-------------------------------
+[PAINTER,Nerea]
+LoseText = Ten cuidado con los pasillos, son traicioneros.
+LoseText_F = Ten cuidado con los pasillos, son traicioneros.
+Pokemon = HERDIER,25
+Pokemon = FURFROU,25
+    Form=3
+#-------------------------------
+[CHANNELER,Lucia]
+LoseText = No se me ocurre nada.
+LoseText_F = No se me ocurre nada.
+Pokemon = RAPIDASH,25
+    Form=1
+Pokemon = ORICORIO,25
+    Form=2
+#-------------------------------
+[BUGCATCHER,Carlitos]
+LoseText = A que son preciosos.
+LoseText_F = A que son preciosos.
+Pokemon = VIVILLON,25
+    Form=18
+Pokemon = DOTTLER,25
+#-------------------------------
+[BUGCATCHER,Carlitos]
+LoseText = A que son preciosos.
+LoseText_F = A que son preciosos.
+Pokemon = VIVILLON,25
+    Form=18
+Pokemon = DOTTLER,25

@@ -404,7 +404,7 @@ VictoryBGM = Battle victory leader
 [Doppelganger]
 Name = Doppelganger
 Gender = Male
-BaseMoney = 60
+BaseMoney = 0
 #-------------------------------
 [LEADER_Javi]
 Name = Líder de Gimnasio
