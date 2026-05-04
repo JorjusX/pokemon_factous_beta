@@ -170,7 +170,6 @@ Color = Brown
 Pokedex = Controla la electricidad a voluntad. Puede subirse a su propia cola y desplazarse flotando con sus poderes telequinéticos.
 Generation = 7
 Flags = InheritFormWithEverStone
-Evolutions = PIKACHU,Item,SUNSTONE
 #-------------------------------
 [SANDSHREW,1]
 FormName = Forma Alola
@@ -2875,3 +2874,37 @@ Weight = 77.0
 Shape = Head
 Pokedex = Adopta esta forma cuando su energía Teracristal se ve amplificada descomunalmente. Se asemeja a la imagen del mundo que la gente tenía antaño.
 Flags = Legendary,TeraType_STELLAR
+#-------------------------------
+#AÑADIDO POR MI
+#-------------------------------
+[PIKACHU,16]
+FormName = Forma Compañera
+BaseStats = 45,80,50,120,75,60
+EVs = SPEED,3
+Abilities = STATIC
+HiddenAbilities = LIGHTNINGROD
+Moves = 1,THUNDERSHOCK,1,TAILWHIP,5,QUICKATTACK,0,PIKAPAPOW
+TutorMoves = ZIPPYZAP,SPLISHYSPLASH,FLOATYFALL
+Height = 0.4
+Weight = 6.0
+Pokedex = Un Pikachu especial que ha creado un fuerte vínculo con su Entrenador. Posee un poder superior al habitual.
+EggGroups = Undiscovered
+Evolutions = EEVEE,None,
+#-------------------------------
+[EEVEE,1]
+FormName = Forma Compañera
+BaseStats=65,75,70,75,65,85
+EVs = HP,3
+Abilities = RUNAWAY
+HiddenAbilities = ADAPTABILITY
+Moves = 1,TACKLE,1,TAILWHIP,5,QUICKATTACK,0,VEEVEEVOLLEY
+TutorMoves = BOUNCYBUBBLE,BUZZYBUZZ,SIZZLYSLIDE,BADDYBAD,GLITZYGLOW,SAPPYSEED,FREEZYFROST,SPARKLYSWIRL
+Height = 0.3
+Weight = 6.5
+Pokedex = Un Eevee excepcional que puede usar movimientos de distintos tipos gracias a su vínculo con su Entrenador.
+EggGroups = Undiscovered
+Evolutions = PIKACHU,None,
+#-------------------------------
+[PIKACHU,17]
+Generation = 7
+Evolutions = RAICHU,Item,THUNDERSTONE

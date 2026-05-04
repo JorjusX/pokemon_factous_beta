@@ -9858,3 +9858,163 @@ FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
 Description = Movimiento cuyo tipo varia al del usuario en caso de que éste haya teracristalizado.
 #-------------------------------
+# INTRODUCIDO POR MI
+#-------------------------------
+[PIKAPAPOW]
+Name = Pikatormenta
+Type = ELECTRIC
+Category = Special
+Power = 1
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+Description = Cuanto mayor es la amistad con su Entrenador, más daño causa.
+#-------------------------------
+[VEEVEEVOLLEY]
+Name = Eeveeimpacto
+Type = NORMAL
+Category = Special
+Power = 1
+Accuracy = 0
+TotalPP = 20
+Target = NearOther
+FunctionCode = PowerHigherWithUserHappiness
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = Su potencia aumenta según el vínculo con su Entrenador.
+#-------------------------------
+[ZIPPYZAP]
+Name = Pikaturbo
+Type = ELECTRIC
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 2
+FunctionCode = AlwaysCriticalHit
+Flags = Contact,CanProtect,CanMirrorMove,CannotMetronome
+Description = Ataca primero y asesta siempre un golpe crítico.
+#-------------------------------
+[SPLISHYSPLASH]
+Name = Salpikasurf
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = ParalyzeTarget
+Flags = CanProtect,CanMirrorMove,CannotMetronome
+EffectChance = 30
+Description = Puede paralizar al objetivo.
+#-------------------------------
+[FLOATYFALL]
+Name = Pikapicado
+Type = FLYING
+Category = Physical
+Power = 90
+Accuracy = 95
+TotalPP = 15
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = Puede hacer retroceder al objetivo.
+#-------------------------------
+[BOUNCYBUBBLE]
+Name = Vapodrenaje
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,CanMirrorMove
+Description = Cura la mitad del daño inflingido.
+#-------------------------------
+[BUZZYBUZZ]
+Name = Joltiopáralisis
+Type = ELECTRIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ParalyzeTargetIfNotTypeImmune
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y paraliza al objetivo.
+#-------------------------------
+[SIZZLYSLIDE]
+Name = Flarembestida
+Type = FIRE
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BurnTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = Causa daño y quema al objetivo.
+#-------------------------------
+[BADDYBAD]
+Name = Umbreozona
+Type = DARK
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartWeakenPhysicalDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y levanta un muro de luz que protege de los movimientos fisicos.
+#-------------------------------
+[GLITZYGLOW]
+Name = Espeaura
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartWeakenSpecialDamageAgainstUserSide
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y levanta un muro de luz que protege de los movimientos especiales.
+#-------------------------------
+[SAPPYSEED]
+Name = Leafitobombas
+Type = GRASS
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = StartLeechSeedTarget
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y coloca drenadoras al objetivo.
+#-------------------------------
+[FREEZYFROST]
+Name = Glaceoprisma
+Type = ICE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = ResetAllBattlersStatStages
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y restablece los cambios de características de todos los Pokémon en combate.
+#-------------------------------
+[SPARKLYSWIRL]
+Name = Sylveotornado
+Type = FAIRY
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = CureUserPartyStatus
+Flags = CanProtect,CanMirrorMove
+Description = Causa daño y cura todos los problemas de estado del equipo.
