@@ -583,7 +583,7 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [156]   # San Berna
-Name = San Berna
+Name = Pueblo San Berna
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -786,3 +786,10 @@ Name = Ruta 3
 Outdoor = true
 ShowArea = true
 Bicycle = true
+#-------------------------------
+[225]   # Ciudad Adrian
+Name = Ciudad San José
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SnapEdges = true
