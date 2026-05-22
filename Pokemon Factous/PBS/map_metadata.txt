@@ -793,3 +793,8 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 SnapEdges = true
+#-------------------------------
+[229]   # Gimnasio Adrian
+Name = Gimnasio Adrian
+ShowArea = true
+StillReflections = true
