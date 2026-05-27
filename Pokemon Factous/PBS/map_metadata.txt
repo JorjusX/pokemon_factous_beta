@@ -443,7 +443,7 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [085]   # Almudevar
-Name = Saputland
+Name = Saputevar
 Outdoor = true
 ShowArea = true
 Bicycle = true
