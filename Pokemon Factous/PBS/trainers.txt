@@ -1504,3 +1504,21 @@ Pokemon = EMBOAR,30
     EV = 0,252,0,252,0,4
     Shiny = true
     Ball = POKEBALL
+#-------------------------------
+[POKEMONRANGER_M,John Rambo]
+LoseText = La mente es la mejor arma.
+LoseText_F = La mente es la mejor arma.
+Pokemon = MAGMAR,25
+Pokemon = MAGMORTAR,25
+#-------------------------------
+[POKEMONRANGER_M,Dan Taylor]
+LoseText = Yo tengo un destino.
+LoseText_F = Yo tengo un destino.
+Pokemon = TALONFLAME,25
+Pokemon = ARMAROUGE,25
+#-------------------------------
+[POKEMONRANGER_M,Guile]
+LoseText = ¡Sonic Boom!
+LoseText_F = ¡Sonic Boom!
+Pokemon = CAMERUPT,25
+Pokemon = CERULEDGE,25
