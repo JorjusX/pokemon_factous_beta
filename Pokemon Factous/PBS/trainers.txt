@@ -506,7 +506,7 @@ Pokemon = GLIGAR,14
 Items = FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
 LoseText = Como alguien tan pobre como tu pudo derrotarme.
 LoseText_F = Como alguien tan pobre como tu pudo derrotarme.
-Pokemon = ELECTRODE,20
+Pokemon = ELECTRODE,25
     Form = 1
     Moves = DISCHARGE,VOLTSWITCH,RAINDANCE,ENERGYBALL
     AbilityIndex = 2
@@ -515,7 +515,7 @@ Pokemon = ELECTRODE,20
     IV = 31,31,31,31,31,31
     EV = 252,0,4,0,252,0
     Ball = LUXURYBALL
-Pokemon = LUDICOLO,20
+Pokemon = LUDICOLO,25
     Moves = LEECHSEED,GIGADRAIN,ICEBEAM,SCALD
     AbilityIndex = 1
     Item = LEFTOVERS
@@ -523,7 +523,7 @@ Pokemon = LUDICOLO,20
     IV = 31,31,31,31,31,31
     EV = 252,0,252,0,4,0
     Ball = LUXURYBALL
-Pokemon = CRADILY,20
+Pokemon = CRADILY,25
     Moves = CURSE,SYNTHESIS,BULLETSEED,ROCKBLAST
     AbilityIndex = 1
     Item = LOADEDDICE
@@ -531,7 +531,7 @@ Pokemon = CRADILY,20
     IV = 31,31,31,31,31,31
     EV = 252,0,4,0,0,252
     Ball = LUXURYBALL
-Pokemon = SERPERIOR,20
+Pokemon = SERPERIOR,25
     Moves = LEAFSTORM,HIDDENPOWER,DRAGONPULSE,GIGADRAIN
     AbilityIndex = 1
     Item = ASSAULTVEST
@@ -968,13 +968,13 @@ Pokemon = MACHOKE,28
 [PSYCHIC_F,Carlota]
 LoseText = El trabajo duro tiene su recompensa.
 LoseText_F = El trabajo duro tiene su recompensa.
-Pokemon = GOTHORITA,32
+Pokemon = GOTHORITA,28
 #-------------------------------
 [LEADER_Pablo,Pablo]
 Items = FULLRESTORE,MEGARING,TERAORB
 LoseText = Fue una pelea bastante justa.
 LoseText_F = Fue una pelea bastante justa.
-Pokemon = GLIMMORA,20
+Pokemon = GLIMMORA,30
     Moves = STEALTHROCK,MORTALSPIN,POWERGEM,EARTHPOWER
     AbilityIndex = 0
     Item = REDCARD
@@ -982,7 +982,7 @@ Pokemon = GLIMMORA,20
     IV = 31,31,31,31,31,31
     EV = 0,0,4,252,252,0
     Ball = DUSKBALL
-Pokemon = GARGANACL,20
+Pokemon = GARGANACL,30
     Moves = SALTCURE,BODYPRESS,IRONDEFENSE,RECOVER
     AbilityIndex = 0
     Item = LEFTOVERS
@@ -990,7 +990,7 @@ Pokemon = GARGANACL,20
     IV = 31,31,31,31,31,31
     EV = 252,52,0,0,0,204
     Ball = TIMERBALL
-Pokemon = LYCANROC,20
+Pokemon = LYCANROC,30
     Form = 2
     Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
     Item = LIFEORB
@@ -998,7 +998,7 @@ Pokemon = LYCANROC,20
     IV = 31,31,31,31,31,31
     EV = 0,252,4,252,0,0
     Ball = LEVELBALL
-Pokemon = TYRANITAR,20
+Pokemon = TYRANITAR,30
     Moves = DRAGONDANCE,CRUNCH,FIREPUNCH,AQUATAIL
     AbilityIndex = 1
     Item = TYRANITARITE
@@ -1435,44 +1435,44 @@ Pokemon = NIDOQUEEN,15
 [PAINTER,Nerea]
 LoseText = Ten cuidado con los pasillos, son traicioneros.
 LoseText_F = Ten cuidado con los pasillos, son traicioneros.
-Pokemon = HERDIER,25
-Pokemon = FURFROU,25
+Pokemon = HERDIER,30
+Pokemon = FURFROU,30
     Form=3
 #-------------------------------
 [CHANNELER,Lucia]
 LoseText = No se me ocurre nada.
 LoseText_F = No se me ocurre nada.
-Pokemon = RAPIDASH,25
+Pokemon = RAPIDASH,30
     Form=1
-Pokemon = ORICORIO,25
+Pokemon = ORICORIO,30
     Form=2
 #-------------------------------
 [BUGCATCHER,Carlitos]
 LoseText = A que son preciosos.
 LoseText_F = A que son preciosos.
-Pokemon = VIVILLON,25
+Pokemon = VIVILLON,30
     Form=18
-Pokemon = DOTTLER,25
+Pokemon = DOTTLER,30
 #-------------------------------
 [BUGCATCHER,Carlitos]
 LoseText = A que son preciosos.
 LoseText_F = A que son preciosos.
-Pokemon = VIVILLON,25
+Pokemon = VIVILLON,30
     Form=18
-Pokemon = DOTTLER,25
+Pokemon = DOTTLER,30
 #-------------------------------
 [LEADER_Adrian,Adrian]
 Items = FULLRESTORE,FULLRESTORE,MEGARING,TERAORB
 LoseText = Supiste ponerte por encima de un volcan con mas poder que un ejercito entero.
 LoseText_F = Supiste ponerte por encima de un volcan con mas poder que un ejercito entero.
-Pokemon = SALAZZLE,30
+Pokemon = SALAZZLE,40
     Moves = TOXIC,VENOSHOCK,FLAMETHROWER,NASTYPLOT
     Item = BLACKSLUDGE
     Nature = TIMID
     IV = 31,31,31,31,31,31
     EV = 0,0,0,252,252,4
     Ball = MASTERBALL
-Pokemon = CINDERACE,30
+Pokemon = CINDERACE,40
     Moves = SALTCURE,BODYPRESS,IRONDEFENSE,RECOVER
     AbilityIndex = 0
     Item = LEFTOVERS
@@ -1480,14 +1480,14 @@ Pokemon = CINDERACE,30
     IV = 31,31,31,31,31,31
     EV = 252,52,0,0,0,204
     Ball = SAFARIBALL
-Pokemon = VOLCARONA,30
+Pokemon = VOLCARONA,40
     Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
     Item = LIFEORB
     Nature = JOLLY
     IV = 31,31,31,31,31,31
     EV = 0,252,4,252,0,0
     Ball = SAFARIBALL
-Pokemon = ROTOM,30
+Pokemon = ROTOM,40
     Form = 1
     Moves = ACCELEROCK,DRILLRUN,PSYCHICFANGS,SWORDSDANCE
     Item = LIFEORB
@@ -1495,7 +1495,7 @@ Pokemon = ROTOM,30
     IV = 31,31,31,31,31,31
     EV = 0,252,4,252,0,0
     Ball = SAFARIBALL   
-Pokemon = EMBOAR,30
+Pokemon = EMBOAR,40
     Moves = DRAGONDANCE,CRUNCH,FIREPUNCH,AQUATAIL
     AbilityIndex = 1
     Item = TYRANITARITE
@@ -1508,17 +1508,48 @@ Pokemon = EMBOAR,30
 [POKEMONRANGER_M,John Rambo]
 LoseText = La mente es la mejor arma.
 LoseText_F = La mente es la mejor arma.
-Pokemon = MAGMAR,25
-Pokemon = MAGMORTAR,25
+Pokemon = MAGMAR,35
+Pokemon = MAGMORTAR,35
 #-------------------------------
 [POKEMONRANGER_M,Dan Taylor]
 LoseText = Yo tengo un destino.
 LoseText_F = Yo tengo un destino.
-Pokemon = TALONFLAME,25
-Pokemon = ARMAROUGE,25
+Pokemon = TALONFLAME,35
+Pokemon = ARMAROUGE,35
 #-------------------------------
 [POKEMONRANGER_M,Guile]
 LoseText = ¡Sonic Boom!
 LoseText_F = ¡Sonic Boom!
-Pokemon = CAMERUPT,25
-Pokemon = CERULEDGE,25
+Pokemon = CAMERUPT,35
+Pokemon = CERULEDGE,35
+#-------------------------------
+[COOLTRAINER_M,Pato]
+LoseText = Pato...
+LoseText_F = Pato...
+Pokemon = PSYDUCK,30
+Pokemon = GOLDUCK,33
+#-------------------------------
+[SAILOR,Mozota]
+LoseText = Tienes pinta de ser una persona de confianza.
+LoseText_F = Tienes pinta de ser una persona de confianza.
+Pokemon = PALAFIN,30
+Pokemon = SLOWKING,30 
+#-------------------------------
+[YOUNGSTER,Mochi]
+LoseText = Espero algun dia poder jugar contigo de nuevo.
+LoseText_F = Espero algun dia poder jugar contigo de nuevo.
+Pokemon = BEWEAR,30
+Pokemon = ANNIHILAPE,30
+#-------------------------------
+[YOUNGSTER,Uriel]
+LoseText = Mi sueño es ser un productor musical.
+LoseText_F = Mi sueño es ser un productor musical.
+Pokemon = LOUDRED,30
+Pokemon = THWACKEY,30
+#-------------------------------
+[BIRDKEEPER,Elgar]
+LoseText = Hay muchas formas de luchar por lo justo.
+LoseText_F = Hay muchas formas de luchar por lo justo.
+Pokemon = DARTRIX,30
+Pokemon = XATU,30
+

@@ -7045,3 +7045,13 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = Un misterioso amuleto brillante que aumenta la cantidad de fragmentos de Tera que recibes en las incursiones de Tera.
+#-------------------------------
+#MIOS
+#-------------------------------
+[INSCRIPCIONPERDIDA]
+Name = Figura Perdida
+NamePlural = artefactos legendarios que cojones haces intentando vender esto
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Es una figura de barro bastante antigua. Quizas algun experto en el museo pueda averiguar de que se trata.

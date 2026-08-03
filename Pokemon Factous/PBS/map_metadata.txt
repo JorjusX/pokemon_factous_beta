@@ -798,3 +798,58 @@ SnapEdges = true
 Name = Gimnasio Adrian
 ShowArea = true
 StillReflections = true
+#-------------------------------
+[233]   # Zona01
+Name = Zona Safari
+Outdoor = true
+ShowArea = true
+Bicycle = true
+SafariMap = true
+#-------------------------------
+[234]   # Zona02
+Name = Zona Desertica
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Sandstorm,100
+SafariMap = true
+#-------------------------------
+[235]   # Templo de los antiguos
+Name = Templo de los antiguos
+ShowArea = true
+DarkMap = true
+#-------------------------------
+[236]   # Templo de los antiguos 2
+Name = Templo de los Antiguos
+ShowArea = true
+DarkMap = true
+SafariMap = true
+#-------------------------------
+[237]   # The Loss Level
+Name = Fragmento Perdido
+ShowArea = true
+DarkMap = true
+SafariMap = true
+StillReflections = true
+#-------------------------------
+[238]   # Piso +1
+Name = Camino Perdido
+ShowArea = true
+DarkMap = true
+SafariMap = true
+StillReflections = true
+#-------------------------------
+[239]   # Piso -1 Camino
+Name = Laberinto Perdido
+ShowArea = true
+DarkMap = true
+SafariMap = true
+StillReflections = true
+#-------------------------------
+[240]   # Secreto de los Antiguos
+Name = Secreto de los Antiguos
+ShowArea = true
+DarkMap = true
+SafariMap = true
+#-------------------------------
+[243]   # Mundo de las Pesadillas
